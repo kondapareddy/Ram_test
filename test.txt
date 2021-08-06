@@ -1,3 +1,10 @@
 HELLO WORLD
 HELLO INDIA
 HELLO TELUGU
+
+
+proc sort data=test;
+  by class;
+run;
+
+proc print data=class;run;
